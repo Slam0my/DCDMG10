@@ -1,0 +1,8 @@
+gene_accession_id,MGI:98495
+gene_symbol,Tbx3
+mouse_strain,C57BL
+mouse_life_stage,Early adult
+parameter_id,IMPC_HEM_007_001
+pvalue,0.5678227
+parameter_name,Mean cell hemoglobin concentration
+analysis_id,c6rnb9b0c65epan

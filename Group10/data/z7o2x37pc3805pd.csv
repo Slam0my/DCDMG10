@@ -1,0 +1,8 @@
+gene_accession_id,MGI:105089
+gene_symbol,Hsd17b4
+mouse_strain,C57BL
+mouse_life_stage,Middle aged adult
+parameter_id,IMPC_ECG_031_001
+pvalue,0.354806
+parameter_name,Abnormal ECG detected
+analysis_id,z7o2x37pc3805pd

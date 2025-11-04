@@ -1,0 +1,8 @@
+gene_accession_id,MGI:2140300
+gene_symbol,Myorg
+mouse_strain,C57BL
+mouse_life_stage,Early adult
+parameter_id,IMPC_FEA_003_001
+pvalue,0.7746098
+parameter_name,Conditioning Baseline % Freezing Time
+analysis_id,iwt03u3fv61n209

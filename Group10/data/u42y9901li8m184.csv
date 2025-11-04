@@ -1,0 +1,8 @@
+gene_accession_id,MGI:1914961
+gene_symbol,Nsmce1
+mouse_strain,C57BL
+mouse_life_stage,Early adult
+parameter_id,IMPC_ECG_031_001
+pvalue,0.1181413
+parameter_name,Abnormal ECG detected
+analysis_id,u42y9901li8m184

@@ -1,0 +1,8 @@
+gene_accession_id,MGI:2676312
+gene_symbol,Abca12
+mouse_strain,C57BL
+mouse_life_stage,E18.5
+parameter_id,IMPC_ECG_031_001
+pvalue,1.436389
+parameter_name,Abnormal ECG detected
+analysis_id,f06k2d99mn9uf2y

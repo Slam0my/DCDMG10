@@ -1,0 +1,8 @@
+gene_accession_id,MGI:98495
+gene_symbol,Tbx3
+mouse_strain,C57BL
+mouse_life_stage,E9.5
+parameter_id,IMPC_ECG_031_001
+pvalue,0.8609756
+parameter_name,Abnormal ECG detected
+analysis_id,rtt28ue2k703nsn

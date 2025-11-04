@@ -1,0 +1,8 @@
+gene_accession_id,MGI:103556
+gene_symbol,Cxcl12
+mouse_strain,C57BL
+mouse_life_stage,e12.5
+parameter_id,IMPC_HEM_004_001
+pvalue,0.1493546
+parameter_name,Hematocrit
+analysis_id,26s6070rc1op578

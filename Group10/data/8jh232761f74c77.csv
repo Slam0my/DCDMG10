@@ -1,0 +1,8 @@
+gene_accession_id,MGI:2147679
+gene_symbol,Patl1
+mouse_strain,C57BL
+mouse_life_stage,E18.5
+parameter_id,CCP_LDT_006_001
+pvalue,0.9762301
+parameter_name,Latency to first transition into light
+analysis_id,8jh232761f74c77

@@ -1,0 +1,8 @@
+gene_accession_id,MGI:1923356
+gene_symbol,Kdm3b
+mouse_strain,C57BL
+mouse_life_stage,E18.5
+parameter_id,IMPC_ABR_010_001
+pvalue,0.4597653
+parameter_name,24kHz-evoked ABR Threshold
+analysis_id,mva653a9l5kzc7p

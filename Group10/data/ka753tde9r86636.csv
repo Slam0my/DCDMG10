@@ -1,0 +1,8 @@
+gene_accession_id,MGI:2136381
+gene_symbol,Hadhb
+mouse_strain,C57BL
+mouse_life_stage,Early adult
+parameter_id,IMPC_ECG_031_001
+pvalue,0.6160026
+parameter_name,Abnormal ECG detected
+analysis_id,ka753tde9r86636

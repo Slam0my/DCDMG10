@@ -1,0 +1,8 @@
+mouse_life_stage,early adult
+gene_accession_id,MGI:2443664
+parameter_name,Abnormal ECG detected
+analysis_id,8279906j780m62j
+parameter_id,IMPC_ECG_031_001
+pvalue,0.07401151
+mouse_strain,C57BL
+gene_symbol,Rreb1

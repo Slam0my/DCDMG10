@@ -1,0 +1,8 @@
+gene_accession_id,MGI:1353657
+gene_symbol,Fgd3
+mouse_strain,C57BL
+mouse_life_stage,Early adult
+parameter_id,IMPC_ECG_031_001
+pvalue,0.06622452
+parameter_name,Abnormal ECG detected
+analysis_id,6z07s0f971v3rx8

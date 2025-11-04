@@ -1,0 +1,8 @@
+gene_accession_id,MGI:103556
+gene_symbol,Cxcl12
+mouse_strain,C57BL
+mouse_life_stage,E12.5
+parameter_id,IMPC_ECG_031_001
+pvalue,0.06107139
+parameter_name,Abnormal ECG detected
+analysis_id,5mn23p9h70718pt

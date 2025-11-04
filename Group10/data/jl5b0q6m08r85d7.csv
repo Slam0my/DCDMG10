@@ -1,0 +1,8 @@
+gene_accession_id,MGI:1926187
+gene_symbol,Avl9
+mouse_strain,C57BL
+mouse_life_stage,Early adult
+parameter_id,impc_ecg_031_001
+pvalue,0.2654356
+parameter_name,Abnormal ECG detected
+analysis_id,jl5b0q6m08r85d7

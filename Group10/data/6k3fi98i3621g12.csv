@@ -1,0 +1,8 @@
+gene_accession_id,MGI:1915956
+gene_symbol,Rgp1
+mouse_strain,C57BL
+mouse_life_stage,E9.5
+parameter_id,IMPC_ECG_031_001
+pvalue,0.7082145
+parameter_name,Abnormal ECG detected
+analysis_id,6k3fi98i3621g12

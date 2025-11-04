@@ -1,0 +1,8 @@
+gene_accession_id,MGI:2147679
+analysis_id,4i90rqq46921j1s
+pvalue,0.266019
+parameter_name,Mean cell volume
+mouse_strain,C57BL
+parameter_id,IMPC_HEM_005_001
+mouse_life_stage,E18.5
+gene_symbol,Patl1

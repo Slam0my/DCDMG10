@@ -1,0 +1,8 @@
+gene_accession_id,MGI:96546
+gene_symbol,Il1r2
+mouse_strain,C57BL
+mouse_life_stage,Early adult
+parameter_id,IMPC_ABR_008_001
+pvalue,0.5277899
+parameter_name,18kHz-evoked ABR Threshold
+analysis_id,rpd95558smirmai

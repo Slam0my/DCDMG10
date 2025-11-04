@@ -1,0 +1,8 @@
+gene_accession_id,MGI:105089
+gene_symbol,Hsd17b4
+mouse_strain,C57BL
+mouse_life_stage,Late adult
+parameter_id,IMPC_HEM_007_001
+pvalue,0.2174699
+parameter_name,Mean cell hemoglobin concentration
+analysis_id,gc1m42k64j69x78
