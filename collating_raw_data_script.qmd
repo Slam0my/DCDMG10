@@ -1,0 +1,73 @@
+---
+title: "Collated_raw_data_script"
+format: html
+---
+
+```{r}
+
+library(data.table)
+library(dplyr)
+library(tidyverse)
+
+getwd()
+#set working directory
+setwd("C:/Users/sarah/OneDrive/Desktop/KCL/DCDM/GROUP WORK 10/Group10/Group10/")
+
+IMPC_data_folder <- "C:/Users/sarah/OneDrive/Desktop/KCL/DCDM/GROUP WORK 10/Group10/Group10/data"
+
+# store our output collated data from the following code into a new csv file
+collated_raw_data_file <- "C:/Users/sarah/OneDrive/Desktop/KCL/DCDM/GROUP WORK 10/Group10/Scripts/collated_raw_impc_data.csv"
+
+# read and store our SOP
+sop <- fread("C:/Users/sarah/OneDrive/Desktop/KCL/DCDM/GROUP WORK 10/Group10/Group10/IMPC_SOP.csv")
+
+# use tolower to covert strings to lowercase to standardise our text in the column
+# use trimws to remove any unwanted spacing either side of our text
+# apply above to sop$dataFields column and store it as a new variable
+corrected_cols <- tolower(trimws(sop$dataField))
+
+# reads and stores all the csv files 
+all_IMPC_files <- list.files(IMPC_data_folder, pattern = "\\.csv$", full.names = TRUE)
+
+
+#using a loop to go through all the csv files 
+transforming_data <- function(file) {
+  #reads the files and only the two columns, naming it field and value
+  data <- fread (file, header = FALSE, col.names = c("field","value"))
+  
+  #standardise our text in the field column
+  data$field <-tolower(trimws(data$field))
+  
+  #transposing the data, flipping it and converting the data into a dataframe to become rows
+  transposed_data <- t(data$value) %>%
+    as.data.frame(stringsAsFactors = FALSE)
+  
+  #assign correct column names
+  colnames(transposed_data) <-data$field
+  
+  #making sure rows in the dataframe have the same structure
+  #identifies columns that are in our corrected_cols but missing in the file so different 
+  # if columns are missing then it gets added with NA
+  missing_cols <- setdiff(corrected_cols, colnames(transposed_data))
+  if(length(missing_cols) > 0) transposed_data[missing_cols] <- NA
+  #IS THERE EVEN ANY NAS OR MISSING COLUMNS?
+  
+  # making sure columns in the dataframe are in the same order as our SOP columns
+  transposed_data <- transposed_data [,corrected_cols, drop = FALSE]
+  
+  return(transposed_data)
+}
+
+#collate this loop into one
+collated_raw_data <- rbindlist(lapply(all_IMPC_files, transforming_data), fill = TRUE)
+
+#writes the output of the collated data into our new file
+fwrite(collated_raw_data, collated_raw_data_file)
+
+#quick verification of dimensions and preview
+print(dim(collated_raw_data))
+print(head(collated_raw_data))
+```
+
+
+
