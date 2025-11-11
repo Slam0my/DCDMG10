@@ -50,7 +50,7 @@ transforming_data <- function(file) {
   # if columns are missing then it gets added with NA
   missing_cols <- setdiff(corrected_cols, colnames(transposed_data))
   if(length(missing_cols) > 0) transposed_data[missing_cols] <- NA
-  #IS THERE EVEN ANY NAS OR MISSING COLUMNS?
+  
   
   # making sure columns in the dataframe are in the same order as our SOP columns
   transposed_data <- transposed_data [,corrected_cols, drop = FALSE]
