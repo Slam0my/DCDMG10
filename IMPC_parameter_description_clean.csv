@@ -1,4 +1,4 @@
-impcParameterOrigId,name,description,parameterId
+impc_parameter_id,name,description,parameterId
 17587,Forelimb grip strength measurement,forelimb_grip_strength_measurement,IMPC_GRS_001_001
 17588,Forelimb and hindlimb grip strength measurement,forelimb_and_hindlimb_grip_strength_measurement,IMPC_GRS_002_001
 17589,Body weight,body_weight,IMPC_GRS_003_001
